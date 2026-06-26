@@ -156,6 +156,7 @@ a.botao{
 }
 .lista-dias > li li {
   font-weight: normal;
+   color: black;
 }
 .lista-dias > li:first-child{
   color: blue;
