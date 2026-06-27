@@ -27,7 +27,10 @@ p {
   text-align: justify;
   font-weight: normal;
   color: #059e52;
+  font-size: 1em;
+  font-family: Georgia, Times, "Times New Roman", serif;
 }
+
 .atividade {
   background-color: green;
   border-radius: 10px;
@@ -47,6 +50,8 @@ h2 ul {
 }
 .links > ul {
   color: white;
+  font-size: 1em;
+  font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 a {
