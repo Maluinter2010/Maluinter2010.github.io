@@ -1,16 +1,17 @@
 body {
   color: #059e52;
   background-color: #ffdbea;
+  font-size: 1em;
+  font-family: Georgia, Times, "Times New Roman", serif;
 }
+
 .cabecalho {
   background-color: #059e52;
   padding: 24px;
   margin-bottom: 16px;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   color: #9b0534;
 }
 
