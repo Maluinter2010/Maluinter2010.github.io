@@ -1,18 +1,47 @@
 body {
   color: #059e52;
   background-color: #ffdbea;
-  font-size: 1em;
+  font-size: 1rem;
   font-family: Georgia, Times, "Times New Roman", serif;
+  margin: 0px;
 }
-
 .cabecalho {
-  background-color: #059e52;
+  background-color: #03ce8a;
   padding: 24px;
   margin-bottom: 16px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #9b0534;
+}
+
+h2:not(.sub),
+h3 {
+  margin: 15px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0px;
+  margin: 16px 0px 0px 0px;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 24px;
+}
+
+.menu a {
+  color: #ffffff;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.menu a::before {
+  content: "› ";
+  color: white;
 }
 
 .perfil {
@@ -21,26 +50,55 @@ h1, h2, h3 {
   border-radius: 120%;
   border: 2px solid #059e52;
   object-fit: cover;
+  margin-left: 15px;
 }
 
 p {
   text-align: justify;
   font-weight: normal;
   color: #059e52;
-  font-size: 1em;
+  font-size: 1rem;
   font-family: Georgia, Times, "Times New Roman", serif;
+  margin: 15px;
+}
+
+.p1 {
+  margin-left: 25px;
 }
 
 .atividade {
-  background-color: green;
+  background-color: #059b6c;
   border-radius: 10px;
   border: 1px solid #9b0534;
   border-left: 5px solid #9b0534;
+  margin-left: 5px;
+  width: 25vw;
 }
 
 .atividade_titulo {
-  padding-left: 16px;
+  padding-left: 1px;
 }
+
+.competencia {
+  background-color: #059b6c;
+  border-radius: 10px;
+  border: 1px solid #9b0534;
+  border-left: 5px solid #9b0534;
+  font-size: 1rem;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  margin-left: -5px;
+  width: 25vw;
+  text-align: justify;
+}
+
+.competencia_titulo {
+  padding-left: 1px;
+}
+
+.competencia ul li {
+  padding-right: 30px;
+}
+
 h2 ul {
   color: white;
 }
@@ -48,9 +106,10 @@ h2 ul {
 .links a {
   color: white;
 }
+
 .links > ul {
   color: white;
-  font-size: 1em;
+  font-size: 1rem;
   font-family: Georgia, Times, "Times New Roman", serif;
 }
 
@@ -62,4 +121,16 @@ a {
 a:hover {
   color: #a64bf1;
   cursor: point;
+}
+
+.rodape {
+  margin: 30px 3px 5px 3px;
+  background-color: #03ce8a;
+  border: 3px solid #9b0534;
+  border-radius: 20px;
+}
+
+.integrantes {
+  color: #9b0534;
+  text-align: center;
 }
