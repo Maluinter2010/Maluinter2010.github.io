@@ -1,0 +1,25 @@
+body{
+  background-color: #FFCE8A;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td{
+  border: 2.5px solid #754400;
+  padding: 3px;
+  text-align: center;
+  background-color: #FFA82E;
+  box-shadow: 10px 10px 10px #754400;
+  
+}
+
+th{
+  color: white;
+  background-color: #A35F00;
+}
+
+.q{
+  box-shadow: none;
+}
