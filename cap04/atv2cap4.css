@@ -23,3 +23,18 @@ th{
 .q{
   box-shadow: none;
 }
+
+a{
+  background-color: #A35F00;
+  border: 1px solid #754400;
+  border-radius: 15px;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+a:hover{
+  cursor: point;
+  color: #C9DB00;
+}
+
