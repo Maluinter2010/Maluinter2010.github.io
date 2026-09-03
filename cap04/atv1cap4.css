@@ -19,3 +19,17 @@ th{
   color: white;
   background-color: #005BDB;
 }
+
+a{
+  background-color: #005BDB;
+  border: 2px solid #003175;
+  border-radius: 15px;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+a:hover{
+  cursor: point;
+  color: #00DBDB;
+}
