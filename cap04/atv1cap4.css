@@ -1,0 +1,21 @@
+body{
+  background-color: #B9FEE7;
+}
+
+table {
+  background-color: #00C9DB;
+  border-collapse: collapse;
+  box-shadow: 10px 10px 10px darkgrey;
+}
+
+th, td{
+  border: 2.5px solid #003175;
+  padding: 3px;
+  text-align: center;
+  
+}
+
+th{
+  color: white;
+  background-color: #005BDB;
+}
