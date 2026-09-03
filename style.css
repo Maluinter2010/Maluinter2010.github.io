@@ -1,12 +1,14 @@
 body {
   color: #059e52;
-  background-color: #ffdbea;
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #f1a9b8, #60efb7);
+  background-attachment: fixed;
   font-size: 1rem;
   font-family: Georgia, Times, "Times New Roman", serif;
   margin: 0px;
 }
 .cabecalho {
-  background-color: #03ce8a;
   padding: 24px;
   margin-bottom: 16px;
   border-bottom: 3px solid #9b0534;
@@ -68,7 +70,7 @@ p {
 }
 
 .atividade {
-  background-color: #059b6c;
+  background: linear-gradient(to bottom, #60efb7, lightgrey);
   border-radius: 10px;
   border: 1px solid #9b0534;
   border-left: 5px solid #9b0534;
@@ -81,7 +83,7 @@ p {
 }
 
 .competencia {
-  background-color: #059b6c;
+  background: linear-gradient(to bottom, #60efb7, lightgrey);
   border-radius: 10px;
   border: 1px solid #9b0534;
   border-left: 5px solid #9b0534;
@@ -94,6 +96,17 @@ p {
 
 .competencia_titulo {
   padding-left: 1px;
+}
+
+.competencia,
+.competencia_titulo,
+.atividade,
+.atividade_titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px 0px 0px;
 }
 
 .competencia ul li {
@@ -126,7 +139,6 @@ a:hover {
 
 .rodape {
   margin: 30px 0px 0px 0px;
-  background-color: #03ce8a;
   padding: 24px;
   border-top: 3px solid #9b0534;
 }
