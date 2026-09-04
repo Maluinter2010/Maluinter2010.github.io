@@ -25,6 +25,7 @@ nav{
   border: 5px solid lightblue;
   border-radius: 20px;
   position: relative;
+  box-shadow: 2px 2px 10px white;
 }
 
 a{
@@ -44,6 +45,6 @@ a:hover{
 
 .last{
   position: absolute;
-  bottom: 0px; 
-  left: 0px; 
+  bottom: 125px; 
+  left: 200px; 
 }
