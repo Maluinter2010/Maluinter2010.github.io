@@ -44,6 +44,6 @@ a:hover{
 
 .last{
   position: absolute;
-  bottom: -45px; 
-  left: 0; 
+  bottom: 20%; 
+  left: 20%; 
 }
