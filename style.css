@@ -22,7 +22,8 @@ main {
   border-bottom: 3px solid #9b0534;
   display: grid;
   grid-template-rows: auto auto;
-  grid-template-columns: auto max-content;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
 }
 
 .cabecalho div {
