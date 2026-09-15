@@ -9,13 +9,6 @@ body {
   margin: 0px;
 }
 
-.l{
-    width: 24px;          
-    height: 24px;         
-    border-radius: 50%;  
-    object-fit: cover;    
-}
-
 main {
   display: flex;
   flex-direction: column;
