@@ -23,7 +23,7 @@ main {
   display: grid;
   grid-template-rows: auto auto;
   grid-template-columns: auto 1fr;
-  gap: 20px;
+  gap: 18.5px;
 }
 
 .cabecalho div {
@@ -191,7 +191,7 @@ a:hover {
   background: linear-gradient(to bottom, #60efb7, lightgrey);
   border: 1px solid #9b0534;
   border-top: 5px solid #9b0534;
-  width: 50vw;
+  width: 51.5vw;
   height: auto;
   border-radius: 10px;
   margin-bottom: 20px;
