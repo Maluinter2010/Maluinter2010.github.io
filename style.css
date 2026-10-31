@@ -125,7 +125,7 @@ div {
   display: grid;
   height: auto;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  gap: 11px;
 }
 
 .competencia ul li {
