@@ -23,7 +23,7 @@ main {
   display: grid;
   grid-template-rows: auto auto;
   grid-template-columns: auto 1fr;
-  gap: 19px;
+  gap: 19.5px;
 }
 
 .cabecalho div {
